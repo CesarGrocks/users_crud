@@ -35,7 +35,7 @@ const update = catchError(async(req, res) => {
         return res.status(200).json(user[1][0])
 })
 
-
+//agregando nota para commit
 
 module.exports = {
     getAll,
